@@ -1,4 +1,12 @@
 $(document).ready(function(){
-	$
-	
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+    $("button").click(function(){
 });
+  $("#div1").fadeIn(3000);
+  });
+    });
