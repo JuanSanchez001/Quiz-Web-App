@@ -5,8 +5,8 @@ $(document).ready(function(){
   $("#show").click(function(){
     $("p").show();
   });
+   $("#div1").hide();
     $("button").click(function(){
-});
-  $("#div1").fadeIn(3000);
+    $("#div1").toggle();
   });
     });
