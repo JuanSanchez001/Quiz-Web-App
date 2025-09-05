@@ -1,12 +1,36 @@
-$(document).ready(function(){
-  $("#hide").click(function(){
-    $("p").hide();
+$(document).ready(function() {
+  $('#check-answer').on('click', function() {
+    const $selectedRadio = $('input[name="q1"]:checked');
+    if ($selectedRadio.length > 0) {
+      if ($selectedRadio.parent('label').hasClass('correct')) {
+        $('#result').text('Correct!');
+          alert("Correct!");
+      } else {
+        $('#result').text('Good Try');
+          alert("Incorrect:/");
+      }
+    
+    }
   });
-  $("#show").click(function(){
-    $("p").show();
+  
+   $('#check-answer2').on('click', function() {
+    const $selectedRadio = $('input[name="q2"]:checked');
+    if ($selectedRadio.length > 0) {
+      if ($selectedRadio.parent('label').hasClass('correct')) {
+        $('#result').text('Correct!');
+          alert("Correct!");
+      } else {
+        $('#result').text('Good Try');
+          alert("Incorrect:/");
+      }
+    
+    }
   });
-   $("#div1").hide();
-    $("button").click(function(){
-    $("#div1").toggle();
-  });
-    });
+});
+  
+  
+  
+  
+  
+  
+  

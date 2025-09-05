@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html>
  <head>
-   <title>Quiz Web App</title>
+   <title>Math Quiz</title>
    <link rel="stylesheet" type="text/css" href="style.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
    <script src="myScript.js"></script>
  </head>
  <body>
-   <h1>Quiz App</h1>
-   <p> Welcome to the quiz app.</p>
-   <button id="hide">Hide</button>
-<button id="show">Show</button>
 
-<button>Click to fade in boxes</button><br><br>
+   <h1> Welcome to the Math Quiz.</h1>
 
-<div id="div1"> Something</div>
+
+        <h4>Question 1: What is 20+35?</h4>
+        <label><input type="radio" name="q1" value="21"> 21</label><br>
+        <label><input type="radio" name="q1" value="78"> 78</label><br>
+        <label class="correct"><input type="radio" name="q1" value="55"> 55</label><br>
+        <label><input type="radio" name="q1" value="45"> 45</label><br>
+
+    <button id="check-answer">Check Answer</button>
+    <div id="result"></div>
+	
+        <h4>Question 2: What is 17+59?</h4>
+        <label><input type="radio" name="q2" value="81"> 81</label><br>
+        <label class="correct"><input type="radio" name="q2" value="76"> 76</label><br>
+        <label><input type="radio" name="q2" value="75"> 75</label><br>
+        <label><input type="radio" name="q2" value="79"> 79</label><br>
+
+    <button id="check-answer2">Check Answer</button>
+    <div id="result"></div>
+
+
 
  </body>
 </html>

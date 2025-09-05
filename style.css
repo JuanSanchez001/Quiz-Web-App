@@ -2,10 +2,34 @@ body{
 	background-color: grey;
 }
 
+h1{
+	font-size: 50px;
+	margin-left: 35%;
+	color: azure;
+}
+
+.list1{
+	font-size: 20px;
+	color: azure;
+	margin-left: 5%;
+	
+}
+
+#p1{
+	font-size: 30px;
+	color: azure;
+	margin-left: 5%;
+	
+}
+
 #div1 {
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
+  background-color:;
+  width: ;
+  border: ;
+  padding: ;
+  margin: ;
+}
+
+.check{
+	margin-left: 5%;
 }
