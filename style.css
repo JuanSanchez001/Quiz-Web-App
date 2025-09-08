@@ -7,10 +7,18 @@ h1{
 	margin-left: 35%;
 	color: azure;
 }
+h4{
+	margin-left:45%;
+}
 
-text{
+label{
+	margin-left:45%;
+}
+
+.text{
 	
 	font-size: 60px;
+	margin-left:45%;
 	
 }
 }
@@ -30,6 +38,6 @@ text{
   margin: ;
 }
 
-.check{
-	margin-left: 5%;
+button{
+	margin-left: 45%;
 }

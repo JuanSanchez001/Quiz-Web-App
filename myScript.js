@@ -4,6 +4,7 @@ $(document).ready(function() {
     if ($selectedRadio.length > 0) {
       if ($selectedRadio.parent('label').hasClass('correct')) {
         $('#result').text('Correct!');
+		 $('#result').css("margin-left", "45%");
           alert("Correct!");
       } else {
         $('#result').text('Good Try');
@@ -41,11 +42,19 @@ $(document).ready(function() {
     }
   });
   
-  
-  
-  
-  
-  
+  $('#check-answer4').on('click', function() {
+    const $selectedRadio = $('input[name="q4"]:checked');
+    if ($selectedRadio.length > 0) {
+      if ($selectedRadio.parent('label').hasClass('correct')) {
+        $('#result').text('Correct!');
+          alert("Correct!");
+      } else {
+        $('#result').text('Good Try');
+          alert("Incorrect:/");
+      }
+    
+    }
+  });
 });
   
   
